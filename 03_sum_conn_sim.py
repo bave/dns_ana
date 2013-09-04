@@ -77,7 +77,7 @@ def main():
         f.close()
         #print total_connection
         #print len(total_connection)
-        write_file(file_prefix + "_" + str(conn_time) + ".sum", total_connection)
+        write_file(file_prefix + ".sum/" +file_prefix + "_" + str(conn_time) + ".sum", total_connection)
     return
 
 #end_def
